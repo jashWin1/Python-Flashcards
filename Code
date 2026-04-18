@@ -1,0 +1,202 @@
+print("Hello welcome to my program on python flashcards!")
+print("Today you will brush up on your memory about some Python basics.")
+print("PLEASE PRINT YOUR ANSWERS WITHOUT A SPACE.")
+name=(input("What's your name:"))
+print("Welcome", name+"!")
+
+# section 1-Data Types
+score=0
+print("Let's start with Data types")
+question_1=(input("What's any number WITHOUT a decimal point?"))
+if question_1=="Integer" or question_1== "integer": 
+    print("Great job!")
+    score=score+1
+else: 
+    question_1=(input("Try again!"))
+    if question_1=="Integer" or question_1=="integer":
+        print("Great job!")
+        score=score+1
+    else:
+        print("the correct answer was integer")
+
+question_2=(input("What's any number WITH a decimal point?"))
+if question_2=="Floats" or question_2=="floats" or question_2=="Float" or question_2=="float":
+    print("Great job!")
+    score=score+1
+else:
+    question_2=(input("Try again!"))
+    if question_2=="Floats" or question_2=="floats" or question_2=="Float" or question_2=="float":
+        print("Great job!")
+        score=score+1
+    else:
+        print("The correct answer was floats") 
+
+question_3=(input("What's a true value, either true or false?"))
+if question_3=="Booleans" or question_3=="booleans" or question_3=="Boolean" or question_3=="boolean":
+    print("Great job!")
+    score=score+1 
+else: 
+    question_3=(input("Try again!"))
+    if question_3=="Booleans" or question_3=="booleans"or question_3=="Boolean" or question_3=="boolean":
+        print("great job!")
+        score=score+1
+    else: 
+        print("The correct answer was booleans")
+    
+
+question_4=(input("What's a text that MUST be surrounded by quotation marks?"))
+if question_4=="Strings" or question_4=="strings" or question_4=="String" or question_4=="string":
+    print("Great job!")
+    score=score+1 
+else: 
+    question_4=(input("Try again!"))
+    if question_4=="Strings" or question_4=="strings" or question_4=="String" or question_4=="string":
+        print("great job!")
+        score=score+1
+    else: 
+        print("The correct answer was strings")
+    
+question_5=(input("What's a reserved location in the computer's memory for storing a value?"))
+if question_5=="Variables" or question_5=="variables" or question_5=="Variable" or question_5=="variable":
+    print("Great job!")
+    score=score+1 
+else: 
+    question_5=(input("Try again!"))
+    if question_5=="Variables" or question_5=="variables" or question_5=="Variable" or question_5=="variable":
+        print("great job!")
+        score=score+1
+    else: 
+        print("The correct answer was variable")
+
+#section 2 Arithmetic Expressions
+print("Section 2-Arithmetic expressions!")
+question_6=(input("What operator reads as x plus y?"))
+if question_6=="+":
+    print("Good job!")
+    score=score+1
+else:
+    question_6=(input("Try again!"))
+    if question_6=="+":
+        print("Good job!")
+        score=score+1
+    else:
+        print("The correct answer is +")
+
+question_7=(input("What operator reads as x minus y?"))
+if question_7=="-":
+    print("Good job!")
+    score=score+1
+else:
+    question_7=(input("Try again!"))
+    if question_7=="-":
+        print("Good job!")
+        score=score+1
+    else:
+        print("The correct answer is -")
+
+question_8=(input("what operator reads as x times y?"))
+if question_8=="*": 
+    print("Good job!")
+    score=score+1
+else:
+    question_8=(input("Try again!"))
+    if question_8=="*":
+        print("Good job!")
+        score=score+1
+    else:
+        print("The correct answer is *") 
+   
+question_9=(input("What operator reads as x to the power of y?"))
+if question_9=="**":
+    print("Great job!")
+    score=score+1 
+else:
+    question_9=(input("Try again!"))
+    if question_9=="**":
+        print("Good job!")
+        score=score+1
+    else:
+        print("The correct answer is **")
+
+question_10=(input("What operator reads as x divided by y?"))
+if question_10=="/":
+    print("Good job!")
+    score=score+1 
+else:
+    question_10=(input("Try again!"))
+    if question_10=="/":
+        print("Good job!")
+        score=score+1
+    else:
+        print("The correct answer is /")
+
+question_11=(input("What opearator reads as x floor divided by y? "))
+if question_11=="//":
+    print("Good job!")
+    score=score+1
+else:
+    question_11=(input("Try Again!"))
+    if question_11=="//":
+        print("Good job!")
+        score=score+1
+    else:
+        print("The corrrect answer is // ")
+
+question_12=(input("What operator reads as x modulo y?"))
+if question_12=="%":
+    print("Good job!")
+    score=score+1
+else: 
+    question_12=(input("Try again!"))
+    if question_12=="%": 
+        print("Good job!")
+        score=score+1
+    else:
+      print("The correct answer is %")
+
+#section 3 Built in functions-Type casting;
+
+print("Section 3- built in functions for type casting.") 
+question_13=(input("What function in Python returns the value x converted into a string?"))
+if question_13=="str(x)":
+    print("Good job!")
+    score=score+1
+else:
+    question_13=(input("Try again!"))
+    if question_13=="str(x)":
+        print("Good job!")
+        score=score+1
+    else:
+        print("The correct answer is str(x)")
+
+question_14=(input("What function in Python returns the value x converted into an integer?"))
+if question_14=="int(x)":
+    print("Good job!")
+    score=score+1
+else:
+    question_14=(input("Try again!"))
+    if question_14=="int(x)":
+        print("Good job!")
+        score=score+1 
+    else:
+        print("The correct answer is int(x)")
+
+question_15=(input("What function in Python returns the value x converted to a boolean?"))
+if question_15=="bool(x)":
+    print("Good job!")
+    score=score+1
+else:
+    question_15=(input("Try again!"))
+    if question_15=="bool(x)":
+        print("Good job!")
+        score=score+1
+    else:
+        print("The correct answer is bool(x)")
+
+print("Congatulations! You got a score of",score)
+if score==15:
+    print("15 is the highest score you can get, you deserve your score good job!")
+elif score>=10:
+        print("Good job you know your stuff!")
+else:
+        print("Good effort,better luck next time!")
