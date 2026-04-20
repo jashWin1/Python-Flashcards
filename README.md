@@ -26,3 +26,6 @@ What I learnt:
 3. Keeping track of scores
 4. And building interactive programs making it fun for learning
 
+About this project:
+
+I made this project in 8th grade to help me and my friends revise on the basic of Python. I experimented around this project and succesfully built a 200 line code to give the user an interactive experience to help be able to study. I was also able to experience and implement real world features such as given people a second chance as well as keeping track of how many questions you got correct to give feedback and encourage you to have an another try. 
